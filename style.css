@@ -1,3 +1,15 @@
+main {
+    float: left;
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    height: 100%;
+    background-color: #b7b787;
+}
+
 .pixeli {
     float: left;
     height: 170px;
@@ -9,14 +21,15 @@ h1 {
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 5px;
     margin-bottom: 10px;
     color: white;
     background-color: darkolivegreen;
     font-size: 18px;
-    font-weight: 300;
+    border-collapse: collapse;
     padding: 10px;
-    width: 80%;
 }
 .citation {
     font-size: 16px;
@@ -25,41 +38,36 @@ h2 {
     margin-bottom: 10px;
 }
 
-body{
-    width: 100%;
-    margin-right: 200px;
-    margin-left: 20px;
-}
-
 table {
-    width: 80%;
+    width: 100%;
     border-collapse: collapse;
-    background-color: black;
-    color: white;
+    border: solid 2px darkolivegreen;
+    background-color: white;
+    color: black;
 }
 
 th {
     background-color: darkolivegreen;
+    color: white;
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    border: 1px solid white;
 }
 
 td {
     padding: 10px;
     text-align: center;
-    border: 1px solid white;
 }
 
 .anecdote {
     font-size: 18px;
     font-weight: 300;
     padding: 10px;
-    width: 80%;
     border-collapse: collapse;
-    background-color: black;
-    color: white;
+    border: solid;
+    border-color: black;
+    background-color: white;
+    color: black;
 }
 
 footer {
