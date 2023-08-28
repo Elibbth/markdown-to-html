@@ -69,7 +69,16 @@ td {
     background-color: white;
     color: black;
 }
-
 footer {
     text-align: center;
+    background-color: darkolivegreen;
+}
+a { 
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: darkkhaki;
+    font-weight: bold;
+    font-style: italic;
 }
